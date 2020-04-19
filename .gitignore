@@ -1,0 +1,14 @@
+/target/
+*.class
+.settings/
+.classpath
+.project
+*.iml
+.idea
+*.lst
+*.ftl
+*.css
+/bin/
+target
+/log/
+

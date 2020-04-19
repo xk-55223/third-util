@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="gen.mapper.AbClearingGoodsSupplierBillRepresentationMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="gen.entity.AbClearingGoodsSupplierBillRepresentation">
+        <id column="id" property="id" />
+        <result column="bill_no" property="billNo" />
+        <result column="representation" property="representation" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="create_by" property="createBy" />
+        <result column="update_by" property="updateBy" />
+        <result column="data_code" property="dataCode" />
+        <result column="del_flag" property="delFlag" />
+    </resultMap>
+
+</mapper>
