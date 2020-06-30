@@ -6,8 +6,8 @@ import lombok.Data;
  * @author keith
  */
 @Data
-public class ExcelBean {
-    private String subject;
+public class Help extends ExcelBean{
+    private String title;
+    private String krTitle;
     private String content;
-    private String remark;
 }
